@@ -1,0 +1,14 @@
+.nuxt/
+.next/
+
+lib/
+build/
+dist/
+node_modules/
+
+.secret-*
+**.sample
+
+.eslintrc.js
+postcss.config.js
+tailwind.config.js
