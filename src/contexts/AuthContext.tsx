@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import { createContext, useState } from 'react'
 
-import type { User } from '~/shared/types-shared'
+import type { User } from '~/types/models'
 
 class AuthContextProps {
   isLogIn = false
