@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 
-import { DefaultWrapperLayout } from '~/layouts/Default/Wrapper'
+import { DefaultLayout } from '~/layouts/Default'
 
 const HomePage: NextPage = () => {
   return (
-      <DefaultWrapperLayout>
-        {/*  */}
-      </DefaultWrapperLayout>
+      <DefaultLayout>
+        test
+      </DefaultLayout>
   )
 }
 
