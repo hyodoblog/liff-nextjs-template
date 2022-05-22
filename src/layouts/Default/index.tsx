@@ -19,7 +19,7 @@ export const DefaultLayout: FC<LayoutProps> = ({ children }) => {
             <div style={{ marginBottom: 2, color: '#ff0000' }}>
               ログインに失敗しました
             </div>
-            <a href="https://lin.ee/HQmfzky">
+            <a href="https://github.com/hyodoblog">
               <div style={{ textDecoration: 'underline' }}>
                 公式アカウントへ
               </div>
