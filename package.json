@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint:next": "next lint",
+    "lint:prettier": "prettier --write .",
+    "lint": "yarn lint:next && yarn lint:prettier"
   },
   "dependencies": {
     "@line/liff-mock": "^1.0.1",

@@ -8,20 +8,16 @@ import { AuthProvider } from '~/contexts/AuthContext'
 import { useScrollTop } from '~/hooks/useScrollTop'
 import { DefaultLayout } from '~/layouts/Default'
 
-export default function MyApp({
-  Component,
-  pageProps,
-  router
-}: AppProps): JSX.Element {
+export default function MyApp({ Component, pageProps, router }: AppProps): JSX.Element {
   useScrollTop()
 
   return (
     <AuthProvider>
-        <Authenticated />
+      <Authenticated />
 
-            <DefaultLayout>
-              <Component {...pageProps} key={router.asPath} />
-            </DefaultLayout>
+      <DefaultLayout>
+        <Component {...pageProps} key={router.asPath} />
+      </DefaultLayout>
     </AuthProvider>
   )
 }

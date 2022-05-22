@@ -13,16 +13,21 @@ export const DefaultLayout: FC<LayoutProps> = ({ children }) => {
     return (
       <div style={{ margin: 'auto', maxWidth: '600', height: '100vh', minHeight: '100vh', paddingBottom: 2 }}>
         <div
-          style={{ position: 'fixed', left: 0, top: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%', height: '100%' }}
+          style={{
+            position: 'fixed',
+            left: 0,
+            top: 0,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: '100%',
+            height: '100%'
+          }}
         >
           <div style={{ textAlign: 'center' }}>
-            <div style={{ marginBottom: 2, color: '#ff0000' }}>
-              ログインに失敗しました
-            </div>
+            <div style={{ marginBottom: 2, color: '#ff0000' }}>ログインに失敗しました</div>
             <a href="https://github.com/hyodoblog">
-              <div style={{ textDecoration: 'underline' }}>
-                公式アカウントへ
-              </div>
+              <div style={{ textDecoration: 'underline' }}>公式アカウントへ</div>
             </a>
           </div>
         </div>
