@@ -11,6 +11,7 @@
     "lint": "yarn lint:next && yarn lint:prettier"
   },
   "dependencies": {
+    "@line/liff": "^2.21.1",
     "@line/liff-mock": "^1.0.1",
     "firebase": "^9.10.0",
     "next": "12.1.6",
